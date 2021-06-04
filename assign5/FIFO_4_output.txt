@@ -1,0 +1,47 @@
+Welcome!
+FIFO with 4 physical frames
+PageTable: page fault has occurred
+Physical: Stored: main
+PageTable: page fault has occurred
+Physical: Stored: load
+PageTable: page fault has occurred
+Physical: Stored: holding
+Physical: Accessed frameID: 0 contains: main
+PageTable: page fault has occurred
+Physical: Stored: activity
+PageTable: page fault has occurred
+Physical: Stored: net
+PageTable: page fault has occurred
+Physical: Stored: main
+PageTable: page fault has occurred
+Physical: Stored: update
+PageTable: page fault has occurred
+Physical: Stored: holding
+Physical: Accessed frameID: 0 contains: net
+PageTable: page fault has occurred
+Physical: Stored: activity
+Physical: Accessed frameID: 1 contains: main
+PageTable: page fault has occurred
+Physical: Stored: tax
+PageTable: page fault has occurred
+Physical: Stored: net
+PageTable: page fault has occurred
+Physical: Stored: main
+PageTable: page fault has occurred
+Physical: Stored: print
+Physical: Accessed frameID: 2 contains: net
+Main: now print
+
+Physical: Memory Frame: 0 contains: print
+Physical: Memory Frame: 1 contains: tax
+Physical: Memory Frame: 2 contains: net
+Physical: Memory Frame: 3 contains: main
+PageTable: Index 0 : Physical Index:  3 : In Use:  true
+PageTable: Index 1 : Physical Index: -1 : In Use:  false
+PageTable: Index 2 : Physical Index:  1 : In Use:  true
+PageTable: Index 3 : Physical Index: -1 : In Use:  false
+PageTable: Index 4 : Physical Index:  0 : In Use:  true
+PageTable: Index 5 : Physical Index: -1 : In Use:  false
+PageTable: Index 6 : Physical Index: -1 : In Use:  false
+PageTable: Index 7 : Physical Index:  2 : In Use:  true
+PageTable: Current number of page faults: 13
